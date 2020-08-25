@@ -18,7 +18,7 @@ namespace aspnet_core_hostedservices.HostedServices
         }
         public Task StartAsync(CancellationToken cancellationToken)
         {
-            _timer = new Timer(SendMail, null, 0, 100000);
+            _timer = new Timer(SendMail, null, 0, 5000);
 
             return Task.CompletedTask;
         }
@@ -34,7 +34,7 @@ namespace aspnet_core_hostedservices.HostedServices
         }
         private void SendMail(object state)
         {
-            
+            Console.WriteLine("Call SendMailHostedService - SendMail");
         }
     }
 }

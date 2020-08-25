@@ -11,3 +11,17 @@ C:\Desenvolvimento\git\aspnet-core-hostedservices\obj\Debug\netcoreapp3.1\static
 C:\Desenvolvimento\git\aspnet-core-hostedservices\bin\Debug\netcoreapp3.1\MimeKit.dll
 C:\Desenvolvimento\git\aspnet-core-hostedservices\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
 C:\Desenvolvimento\git\aspnet-core-hostedservices\obj\Debug\netcoreapp3.1\aspnet-core-hostedservices.csproj.CopyComplete
+C:\Desenvolvimento\git\aspnet-core-hostedservices\bin\Debug\netcoreapp3.1\aspnet-core-hostedservices.deps.json
+C:\Desenvolvimento\git\aspnet-core-hostedservices\bin\Debug\netcoreapp3.1\aspnet-core-hostedservices.runtimeconfig.json
+C:\Desenvolvimento\git\aspnet-core-hostedservices\bin\Debug\netcoreapp3.1\aspnet-core-hostedservices.runtimeconfig.dev.json
+C:\Desenvolvimento\git\aspnet-core-hostedservices\bin\Debug\netcoreapp3.1\aspnet-core-hostedservices.dll
+C:\Desenvolvimento\git\aspnet-core-hostedservices\bin\Debug\netcoreapp3.1\aspnet-core-hostedservices.pdb
+C:\Desenvolvimento\git\aspnet-core-hostedservices\bin\Debug\netcoreapp3.1\MailKit.dll
+C:\Desenvolvimento\git\aspnet-core-hostedservices\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Desenvolvimento\git\aspnet-core-hostedservices\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Desenvolvimento\git\aspnet-core-hostedservices\bin\Debug\netcoreapp3.1\NETCore.MailKit.dll
+C:\Desenvolvimento\git\aspnet-core-hostedservices\obj\Debug\netcoreapp3.1\aspnet-core-hostedservices.csproj.CoreCompileInputs.cache
+C:\Desenvolvimento\git\aspnet-core-hostedservices\obj\Debug\netcoreapp3.1\aspnet-core-hostedservices.MvcApplicationPartsAssemblyInfo.cache
+C:\Desenvolvimento\git\aspnet-core-hostedservices\obj\Debug\netcoreapp3.1\aspnet-core-hostedservices.dll
+C:\Desenvolvimento\git\aspnet-core-hostedservices\obj\Debug\netcoreapp3.1\aspnet-core-hostedservices.pdb
+C:\Desenvolvimento\git\aspnet-core-hostedservices\obj\Debug\netcoreapp3.1\aspnet-core-hostedservices.genruntimeconfig.cache
