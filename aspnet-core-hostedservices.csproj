@@ -5,5 +5,9 @@
     <RootNamespace>aspnet_core_hostedservices</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+
 
 </Project>
