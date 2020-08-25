@@ -10,32 +10,13 @@ namespace aspnet_core_hostedservices.Entities
         public string ToName { get; set; }
         public string Subject { get; set; }
         public string BodyMessage { get; set; }
-        public List<string> Cc { get; set; }
-        public string[] ListOfEmailsToSend
+        public List<string> Cc { get; set; }      
+        public bool Sent { get; private set; }
+
+        public void MarkEmailAsSent()
         {
-            get
-            {
-                string[] result = null;
-
-                if (!string.IsNullOrEmpty((ToEmail)))
-                {
-                    result = ToEmail.Split(new char[] { ',' });
-                }
-
-                return result;
-            }
+            Sent = true;
         }
-        public int AmountOfEmailsToSend
-        {
-            get
-            {
-                if (ListOfEmailsToSend != null)
-                {
-                    return ListOfEmailsToSend.Length;
-                }
-                else return 0;
-            }
 
-        }
     }
 }

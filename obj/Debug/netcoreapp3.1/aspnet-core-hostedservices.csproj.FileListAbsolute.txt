@@ -1,0 +1,13 @@
+C:\Desenvolvimento\git\aspnet-core-hostedservices\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Desenvolvimento\git\aspnet-core-hostedservices\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Desenvolvimento\git\aspnet-core-hostedservices\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Desenvolvimento\git\aspnet-core-hostedservices\bin\Debug\netcoreapp3.1\aspnet-core-hostedservices.exe
+C:\Desenvolvimento\git\aspnet-core-hostedservices\obj\Debug\netcoreapp3.1\aspnet-core-hostedservices.csprojAssemblyReference.cache
+C:\Desenvolvimento\git\aspnet-core-hostedservices\obj\Debug\netcoreapp3.1\aspnet-core-hostedservices.AssemblyInfoInputs.cache
+C:\Desenvolvimento\git\aspnet-core-hostedservices\obj\Debug\netcoreapp3.1\aspnet-core-hostedservices.AssemblyInfo.cs
+C:\Desenvolvimento\git\aspnet-core-hostedservices\obj\Debug\netcoreapp3.1\aspnet-core-hostedservices.RazorTargetAssemblyInfo.cache
+C:\Desenvolvimento\git\aspnet-core-hostedservices\obj\Debug\netcoreapp3.1\staticwebassets\aspnet-core-hostedservices.StaticWebAssets.Manifest.cache
+C:\Desenvolvimento\git\aspnet-core-hostedservices\obj\Debug\netcoreapp3.1\staticwebassets\aspnet-core-hostedservices.StaticWebAssets.xml
+C:\Desenvolvimento\git\aspnet-core-hostedservices\bin\Debug\netcoreapp3.1\MimeKit.dll
+C:\Desenvolvimento\git\aspnet-core-hostedservices\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+C:\Desenvolvimento\git\aspnet-core-hostedservices\obj\Debug\netcoreapp3.1\aspnet-core-hostedservices.csproj.CopyComplete
