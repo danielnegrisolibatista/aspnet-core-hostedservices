@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using aspnet_core_hostedservices.HostedServices;
+using aspnet_core_hostedservices.Repositories;
+using aspnet_core_hostedservices.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -27,6 +29,9 @@ namespace aspnet_core_hostedservices
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddHostedService<SendMailHostedService>();
+
+            services.AddTransient<IEmailRepository, EmailRepository>();
+            services.AddTransient<ISendMailService, SendMailService>();
 
             services.AddControllers();
         }
