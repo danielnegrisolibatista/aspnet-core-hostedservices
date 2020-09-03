@@ -1,10 +1,7 @@
-﻿using aspnet_core_hostedservices.Entities;
-using aspnet_core_hostedservices.Repositories;
+﻿using aspnet_core_hostedservices.Repositories;
 using aspnet_core_hostedservices.Services;
-using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using System;
-using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -12,11 +9,16 @@ namespace aspnet_core_hostedservices.HostedServices
 {
     public class SendMailHostedService : IHostedService, IDisposable
     {
+        private readonly IEmailRepository _emailRepository;
+        private readonly ISendMailService _sendMailService;
         private Timer _timer;
+
         public IServiceProvider ServiceProvider { get; set; }
-        public SendMailHostedService(IServiceProvider serviceProvider)
+        public SendMailHostedService(IServiceProvider serviceProvider, IEmailRepository emailRepository, ISendMailService sendMailService)
         {
             ServiceProvider = serviceProvider;
+            _emailRepository = emailRepository;
+            _sendMailService = sendMailService;
         }
         public Task StartAsync(CancellationToken cancellationToken)
         {
@@ -38,19 +40,16 @@ namespace aspnet_core_hostedservices.HostedServices
         {
             Console.WriteLine("Begin SendMailHostedService");
 
-            using (var scope = ServiceProvider.CreateScope())
+            var unsentEmails = _emailRepository.Get10UnsentEmails();
+
+            Console.WriteLine($"There is {unsentEmails.Count} email to send");
+
+            foreach (var unsentEmail in unsentEmails)
             {
-                var emailRepository = scope.ServiceProvider.GetRequiredService<IEmailRepository>();
-                var sendMailService = scope.ServiceProvider.GetRequiredService<ISendMailService>();
+                _sendMailService.Send(unsentEmail);
 
-                var unsentEmails = emailRepository.Get10UnsentEmails();
-                foreach (var unsentEmail in unsentEmails)
-                {
-                    sendMailService.Send(unsentEmail);
-
-                    unsentEmail.MarkEmailAsSent();
-                    emailRepository.Save(unsentEmail);
-                }
+                unsentEmail.MarkEmailAsSent();
+                _emailRepository.Save(unsentEmail);
             }
 
             Console.WriteLine("End SendMailHostedService");
