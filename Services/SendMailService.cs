@@ -12,7 +12,7 @@ namespace aspnet_core_hostedservices.Services
         {
             try
             {
-                Console.WriteLine($"Email Sent {email.Id}");
+                Console.WriteLine($"Email Sent { email.Id } - { email.Subject }");
             }
             catch (Exception ex)
             {

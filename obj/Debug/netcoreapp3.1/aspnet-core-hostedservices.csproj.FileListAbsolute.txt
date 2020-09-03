@@ -7,8 +7,6 @@ C:\Desenvolvimento\git\aspnet-core-hostedservices\bin\Debug\netcoreapp3.1\aspnet
 C:\Desenvolvimento\git\aspnet-core-hostedservices\bin\Debug\netcoreapp3.1\aspnet-core-hostedservices.runtimeconfig.dev.json
 C:\Desenvolvimento\git\aspnet-core-hostedservices\bin\Debug\netcoreapp3.1\aspnet-core-hostedservices.dll
 C:\Desenvolvimento\git\aspnet-core-hostedservices\bin\Debug\netcoreapp3.1\aspnet-core-hostedservices.pdb
-C:\Desenvolvimento\git\aspnet-core-hostedservices\obj\Debug\netcoreapp3.1\aspnet-core-hostedservices.csproj.CoreCompileInputs.cache
-C:\Desenvolvimento\git\aspnet-core-hostedservices\obj\Debug\netcoreapp3.1\aspnet-core-hostedservices.MvcApplicationPartsAssemblyInfo.cache
 C:\Desenvolvimento\git\aspnet-core-hostedservices\obj\Debug\netcoreapp3.1\aspnet-core-hostedservices.AssemblyInfoInputs.cache
 C:\Desenvolvimento\git\aspnet-core-hostedservices\obj\Debug\netcoreapp3.1\aspnet-core-hostedservices.AssemblyInfo.cs
 C:\Desenvolvimento\git\aspnet-core-hostedservices\obj\Debug\netcoreapp3.1\aspnet-core-hostedservices.RazorTargetAssemblyInfo.cache
@@ -18,3 +16,5 @@ C:\Desenvolvimento\git\aspnet-core-hostedservices\obj\Debug\netcoreapp3.1\aspnet
 C:\Desenvolvimento\git\aspnet-core-hostedservices\obj\Debug\netcoreapp3.1\aspnet-core-hostedservices.pdb
 C:\Desenvolvimento\git\aspnet-core-hostedservices\obj\Debug\netcoreapp3.1\aspnet-core-hostedservices.genruntimeconfig.cache
 C:\Desenvolvimento\git\aspnet-core-hostedservices\obj\Debug\netcoreapp3.1\aspnet-core-hostedservices.csprojAssemblyReference.cache
+C:\Desenvolvimento\git\aspnet-core-hostedservices\obj\Debug\netcoreapp3.1\aspnet-core-hostedservices.csproj.CoreCompileInputs.cache
+C:\Desenvolvimento\git\aspnet-core-hostedservices\obj\Debug\netcoreapp3.1\aspnet-core-hostedservices.MvcApplicationPartsAssemblyInfo.cache
